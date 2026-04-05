@@ -6,7 +6,10 @@
       "Bash(git commit:*)",
       "Bash(git branch:*)",
       "Bash(git remote:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-keygen -t ed25519 -C \"wanghuaniu211\" -f ~/.ssh/id_ed25519 -N \"\")",
+      "Bash(ssh -o StrictHostKeyChecking=accept-new git@github.com)"
     ]
   }
 }
