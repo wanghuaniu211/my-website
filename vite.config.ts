@@ -5,6 +5,7 @@ import appdevDesignMode from '@xagi/vite-plugin-design-mode';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/my-website/',
   plugins: [
     
   // <!-- DEV-INJECT-START -->

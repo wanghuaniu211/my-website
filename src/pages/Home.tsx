@@ -1,9 +1,5 @@
 import {
-  Github,
-  Linkedin,
   Mail,
-  Phone,
-  MapPin,
   ExternalLink,
   Camera,
   Settings,
@@ -25,38 +21,6 @@ import avatarImage from '@/assets/avatar.jpg';
  */
 
 function Home() {
-  // 项目数据
-  const projects = [
-    {
-      title: '电商平台',
-      description: '基于 React 和 Node.js 构建的现代化电商平台，支持商品浏览、购物车、订单管理等功能',
-      tags: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
-      link: '#',
-      image: '🛒',
-    },
-    {
-      title: '任务管理系统',
-      description: '团队协作任务管理工具，支持任务分配、进度跟踪、团队沟通等功能',
-      tags: ['Vue', 'Vite', 'Pinia', 'Element Plus'],
-      link: '#',
-      image: '✅',
-    },
-    {
-      title: '数据可视化大屏',
-      description: '企业级数据可视化解决方案，支持多种图表类型和实时数据更新',
-      tags: ['React', 'ECharts', 'WebSocket', 'Express'],
-      link: '#',
-      image: '📊',
-    },
-    {
-      title: '移动端 APP',
-      description: '跨平台移动应用，提供流畅的用户体验和丰富的功能模块',
-      tags: ['React Native', 'Redux', 'Firebase'],
-      link: '#',
-      image: '📱',
-    },
-  ];
-
   // 技能数据
   const skills = [
     {

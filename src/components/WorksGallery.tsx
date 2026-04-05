@@ -1,6 +1,5 @@
 import { Play } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-import { useState } from 'react';
 
 /**
  * 作品数据接口
